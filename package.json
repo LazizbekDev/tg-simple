@@ -1,0 +1,30 @@
+{
+  "name": "tg-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazizbekDev/tg-simple.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazizbekDev/tg-simple/issues"
+  },
+  "homepage": "https://github.com/LazizbekDev/tg-simple#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  }
+}
